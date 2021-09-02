@@ -41,11 +41,11 @@ python src/main.py --input data
 ```
 You can also replace the name of provided dataset with your own dataset.
 
-In fact, the proposed model presents three possible variants depending on the used aggregator function and you can The user must also specify the variant tu use using `--aggregator` argument
+In fact, the proposed model presents three possible variants depending on the used aggregator function and you can also specify the variant to use using `--aggregator` argument
 
-- mean -- OVRAU with mean-based aggregator (the used aggregator by default)
-- LSTM -- OVRAU with LSTM-based aggregator
-- max-pooling -- OVRAU with max-pooling aggregator
+- `--aggregator mean` -- OVRAU with mean-based aggregator (the used aggregator by default)
+- `--aggregator LSTM ` -- OVRAU with LSTM-based aggregator
+- `--aggregator max-pooling` -- OVRAU with max-pooling aggregator
 
 These aggregators are described in detail in the paper.
 
