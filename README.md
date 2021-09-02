@@ -32,9 +32,14 @@ edge_type head tail weight
     .
     .
 ```
-Here, each line represents an edge which contains three tokens ```edge_type, head, tail, and weight ```
+Here, each line represents an edge which contains three tokens ```edge_type, head, tail, and weight ```.
 
 ## Running the code
+To train OVRAU model on the example data, you can simply use the following command:
+```
+python src/main.py --input data 
+```
+
 The proposed model presents three possible variants depending on the used aggregator function. 
 The user must also specify a --model, the variants of which are described in detail in the paper:
 
