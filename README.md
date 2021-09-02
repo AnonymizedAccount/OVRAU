@@ -14,7 +14,7 @@ Clone this repository:
   git clone https://github.com/AnonymizedAccount/OVRAU
   cd OVRAU 
   ```
-Then, install other dependencies by
+Then, you should install other dependencies using the following command:
 
    ```
    pip install -r requirements.txt
@@ -39,11 +39,14 @@ To train OVRAU model on the example data, you can simply use the following comma
 ```
 python src/main.py --input data 
 ```
+You can also replace the name of provided dataset with your own dataset.
 
-The proposed model presents three possible variants depending on the used aggregator function. 
-The user must also specify a --model, the variants of which are described in detail in the paper:
+In fact, the proposed model presents three possible variants depending on the used aggregator function and you can The user must also specify the variant tu use using --aggregator argument
 
-graphsage_mean -- GraphSage with mean-based aggregator
-graphsage_seq -- GraphSage with LSTM-based aggregator
-graphsage_maxpool -- GraphSage with max-pooling aggregator (as described in the NIPS 2017 paper)
-graphsage_meanpool -- GraphSage with mean-pooling aggregator (a variant of the pooling aggregator, where the element-wie mean replaces the element-wise max).
+- mean -- OVRAU with mean-based aggregator (the used aggregator by default)
+- LSTM -- OVRAU with LSTM-based aggregator
+- max-pooling -- OVRAU with max-pooling aggregator
+
+These aggregators are described in detail in the paper.
+
+
