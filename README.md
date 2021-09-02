@@ -6,12 +6,13 @@ This directory contains code necessary to run the OVRAU algorithm. OVRAU can be 
 - Python >= 3.7
 - TensorFlow >= 2.2.0
 
+## Installation 
+
 After verifying the installed versions of Python and TensorFlow, then install other dependencies by
 
    ```pip install -r requirements.txt```
-## Running the code 
-
-After installing the required dependencies, clone this repository:
+   
+Then, clone this repository:
 
   ```
   git clone https://github.com/AnonymizedAccount/OVRAU
