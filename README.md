@@ -32,7 +32,7 @@ edge_type head tail weight
     .
     .
 ```
-Here, each line represents an edge which contains three tokens ```edge_type, head, tail, weight ```
+Here, each line represents an edge which contains three tokens ```edge_type, head, tail, and weight ```
 
 ## Running the code
 The proposed model presents three possible variants depending on the used aggregator function. 
