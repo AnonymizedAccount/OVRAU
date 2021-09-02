@@ -5,6 +5,7 @@ This directory contains code necessary to run the OVRAU algorithm. OVRAU can be 
 ## Requirements
 - Python >= 3.7
 - TensorFlow >= 2.2.0
+
 After verifying the above versions of Tensorflow and Python, then install other dependencies by
 
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
