@@ -32,3 +32,5 @@ edge_type head tail weight
     .
     .
 ```
+## Running the code
+The proposed model presents three possible variants depending on the used aggregator function. 
