@@ -22,7 +22,7 @@ Then, install other dependencies by
 ## Dataset 
 Due to the size limitation of the repository, we only provide few small dataset under the folder **data** to help you understand our code and reproduce our experiment. You are welcome to contact us to get access to the whole used dataset.
 ### Input format
-You can also use your own multiplex social network dateset, as long as it fits the following template.
+You can also use your own multiplex social network dateset, you should prepare the following three files (train.txt, test.txt, and valid.txt), as long as it fits the following template.
 
 ```
 edge_type head tail weight
@@ -32,5 +32,13 @@ edge_type head tail weight
     .
     .
 ```
+Here, each line represents an edge which contains three tokens ```edge_type, head, tail, weight ```
+
 ## Running the code
 The proposed model presents three possible variants depending on the used aggregator function. 
+The user must also specify a --model, the variants of which are described in detail in the paper:
+
+graphsage_mean -- GraphSage with mean-based aggregator
+graphsage_seq -- GraphSage with LSTM-based aggregator
+graphsage_maxpool -- GraphSage with max-pooling aggregator (as described in the NIPS 2017 paper)
+graphsage_meanpool -- GraphSage with mean-pooling aggregator (a variant of the pooling aggregator, where the element-wie mean replaces the element-wise max).
