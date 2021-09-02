@@ -39,7 +39,7 @@ To train OVRAU model on the example data, you can simply use the following comma
 ```
 python src/main.py --input data 
 ```
-You can also replace the name of provided dataset with your own dataset.
+You can also replace the name of provided dataset with your own dataset and do not forget to make data files in the format described above.
 
 In fact, the proposed model presents three possible variants depending on the used aggregator function and you can also specify the variant to use using `--aggregator` argument
 
