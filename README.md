@@ -8,13 +8,13 @@ This directory contains code necessary to run the OVRAU algorithm. OVRAU can be 
 
 ## Installation 
 
-After verifying the installed versions of Python and TensorFlow, then install other dependencies by
-
-   ```pip install -r requirements.txt```
-   
-Then, clone this repository:
+Clone this repository:
 
   ```
   git clone https://github.com/AnonymizedAccount/OVRAU
   cd OVRAU 
   ```
+Then, install other dependencies by
+
+   ```pip install -r requirements.txt```
+   
