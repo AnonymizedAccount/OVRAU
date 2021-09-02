@@ -1,0 +1,11 @@
+tqdm
+
+numpy
+
+sklearn
+
+networkx
+
+gensim
+
+requests
