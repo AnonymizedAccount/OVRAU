@@ -20,7 +20,7 @@ Then, you should install other dependencies using the following command:
    pip install -r requirements.txt
    ```
 ## Dataset 
-Due to the size limitation of the repository, we only provide few small dataset under the folder `data` to help you understand our code and reproduce our experiment. You are welcome to contact us to get access to the whole used dataset.
+Due to the size limitation of the repository, we only provide few small dataset under the folder `data` to help you understand our code. You are welcome to contact us to get access to the whole used dataset and reproduce our experiment.
 ### Input format
 You can also use your own multiplex social network dateset, you should prepare the following three files (train.txt, test.txt, and valid.txt), as long as it fits the following template.
 
