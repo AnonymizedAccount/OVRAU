@@ -1,1 +1,2 @@
-# OVRAU: an Overall low-dimensional Vector Representation for Anchor Users
+# OVRAU: 
+An **O**verall low-dimensional **V**ector **R**epresentations for **A**nchor **U**sers
