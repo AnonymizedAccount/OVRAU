@@ -11,7 +11,7 @@ After verifying the installed versions of Python and TensorFlow, then install ot
    ```pip install -r requirements.txt```
 ## Running the code 
 
-After installing the required dependencies, clone this repository using the following command:
+After installing the required dependencies, clone this repository:
 
   ```
   git clone https://github.com/AnonymizedAccount/OVRAU
