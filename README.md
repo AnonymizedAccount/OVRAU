@@ -16,5 +16,19 @@ Clone this repository:
   ```
 Then, install other dependencies by
 
-   ```pip install -r requirements.txt```
+   ```
+   pip install -r requirements.txt
+   ```
 ## Dataset 
+Due to the size limitation of the repository, we only provide few small dataset under the folder **data** to help you understand our code and reproduce our experiment. You are welcome to contact us to get access to the whole used dataset.
+### Input format
+You can also use your own multiplex social network dateset, as long as it fits the following template.
+
+```
+edge_type head tail weight
+    r1     n1   n2    1
+    r2     n2   n3    1
+    .
+    .
+    .
+```
